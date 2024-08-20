@@ -16,15 +16,21 @@ I'm passionate about pushing the boundaries of AI and machine learning to solve 
 - Efficient fine-tuning methods for large language models
 - Ethical AI and responsible machine learning practices
 
-### 💞️ I'm looking to collaborate on
-- Open-source machine learning projects
-- Research initiatives in NLP or Generative AI
-- Innovative AI applications with social impact
+### Some Recent Projects
+- Built a RAG chatbot for tax applications
+- Developed a KNN/LLM based router for query handling
+- Aligned language models with clinical datasets
+- Designed a model for brain tumor detection using MRI data
+- Merged 7B models using innovative techniques
+- Developed a scalable cloud-based microservices solution on GCP
+- Implemented a product categorization system using CNN with 88% accuracy
 
 ### 📫 How to reach me
-- [LinkedIn](https://www.linkedin.com/in/yourusername) - Connect with me professionally
-- [Hugging Face](https://huggingface.co/Syed-Hasan-8503) - Check out my models and datasets
-- [GitHub](https://github.com/Hasan-Syed25) - Explore my repositories and contributions
+- [![Linkedin Follow](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/s-hasan-abbas/)
+- [![Medium Follow](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@syed_hasan)
+- [![Twitter](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/hasansyed_AI)
+- [![Substack](https://img.shields.io/badge/Substack-%23006f5c.svg?style=for-the-badge&logo=substack&logoColor=FF6719)](https://rethinkai.substack.com/)
+
 
 
 ### ⚡ Fun fact
