@@ -1,8 +1,8 @@
 # Syed Hasan
 
 
-[![Twitter Badge](https://img.shields.io/badge/-Twitter-1da1f2?labelColor=1da1f2&logo=twitter&logoColor=white&link=https://twitter.com/https://x.com/hasansyed_AI)](https://twitter.com/https://x.com/hasansyed_AI)
-[![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/https://www.linkedin.com/in/s-hasan-abbas//)
+[![Twitter Badge](https://img.shields.io/badge/-Twitter-1da1f2?labelColor=1da1f2&logo=twitter&logoColor=white&link=https://twitter.com/https://x.com/hasansyed_AI)](https://twitter.com/hasansyed_AI)
+[![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/s-hasan-abbas)
 [![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:hasansyed8505@gmail.com)
 [![Website Badge](https://img.shields.io/badge/-Website-c14438?style=flat&logo=Google-Chrome&logoColor=white&link=https://github.com/Hasan-Syed25)](https://github.com/Hasan-Syed25)
 [![Github](https://img.shields.io/github/followers/Hasan-Syed25?label=Follow&style=social)](https://github.com/Hasan-Syed25)
