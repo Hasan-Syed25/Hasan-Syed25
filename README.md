@@ -1,15 +1,15 @@
-# 👋 Hello, I'm Syed
+# Syed Hasan
+
+
+[![Twitter Badge](https://img.shields.io/badge/-Twitter-1da1f2?labelColor=1da1f2&logo=twitter&logoColor=white&link=https://twitter.com/https://x.com/hasansyed_AI)](https://twitter.com/https://x.com/hasansyed_AI)
+[![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/https://www.linkedin.com/in/s-hasan-abbas//)
+[![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:hasansyed8505@gmail.com)
+[![Website Badge](https://img.shields.io/badge/-Website-c14438?style=flat&logo=Google-Chrome&logoColor=white&link=https://github.com/Hasan-Syed25)](https://github.com/Hasan-Syed25)
+[![Github](https://img.shields.io/github/followers/Hasan-Syed25?label=Follow&style=social)](https://github.com/Hasan-Syed25)
 
 ## 🤖 Machine Learning Engineer | 🤗 Hugging Face Contributor | 🔗 LinkedIn Active
 
 I'm passionate about pushing the boundaries of AI and machine learning to solve real-world problems.
-
-### 👀 What I'm interested in
-- Deep Learning
-- Natural Language Processing
-- Computer Vision
-- Generative AI
-- MLOps and AI Infrastructure
 
 ### 🌱 What I'm currently learning
 - Advanced techniques in transformer architectures
@@ -25,13 +25,22 @@ I'm passionate about pushing the boundaries of AI and machine learning to solve 
 - Developed a scalable cloud-based microservices solution on GCP
 - Implemented a product categorization system using CNN with 88% accuracy
 
-### 📫 How to reach me
-- [![Linkedin Follow](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/s-hasan-abbas/)
-- [![Medium Follow](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@syed_hasan)
-- [![Twitter](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/hasansyed_AI)
-- [![Substack](https://img.shields.io/badge/Substack-%23006f5c.svg?style=for-the-badge&logo=substack&logoColor=FF6719)](https://rethinkai.substack.com/)
+
+
+### 🖥 Skills
+
+- Deep Learning
+- Natural Language Processing
+- Computer Vision
+- Generative AI
+- MLOps and AI Infrastructure
+- Inference Optimization
+### ⚙️ Tech Stack
+
+![Bootstrap](https://img.shields.io/badge/-Python-05122A?style=flat-square&logo=Python&color=353535) ![Bootstrap](https://img.shields.io/badge/-Docker-05122A?style=flat-square&logo=Docker&color=353535) ![Bootstrap](https://img.shields.io/badge/-TensorFlow-05122A?style=flat-square&logo=TensorFlow&color=353535) ![Bootstrap](https://img.shields.io/badge/-PyTorch-05122A?style=flat-square&logo=PyTorch&color=353535) ![Bootstrap](https://img.shields.io/badge/-Scikit%20Learn-05122A?style=flat-square&logo=Scikit-Learn&color=353535) ![Bootstrap](https://img.shields.io/badge/-Pandas-05122A?style=flat-square&logo=Pandas&color=353535) ![Bootstrap](https://img.shields.io/badge/-Numpy-05122A?style=flat-square&logo=Numpy&color=353535)
 
 
 
-### ⚡ Fun fact
-Did you know that the amount of compute used in the largest AI training runs has been doubling every 3.4 months since 2012? This exponential growth rate is about 5 times faster than Moore's Law!
+
+---
+:zap: To generate a `README.md` file like this for your profile, checkout [Github Readme Generator](https://hejazizo-github-profile-readme-srcstreamlit-app-i6skm7.streamlit.app/).
