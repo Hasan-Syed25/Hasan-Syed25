@@ -1,7 +1,7 @@
 # Syed Hasan
 
 **AI Engineer** | **Generative AI Specialist** | **Conversational Systems Innovator**  
-With over 2 years of experience, I craft enterprise-grade AI solutions using **retrieval-augmented generation (RAG)**, **model optimization**, and **agentic architectures**. As a **top 1% Hugging Face contributor** (15+ models, 50k+ downloads), I’m passionate about advancing AI to solve real-world challenges and sharing insights with the community.
+With over 3 years of experience, I craft enterprise-grade AI solutions using **retrieval-augmented generation (RAG)**, **model optimization**, and **agentic architectures**. As a **top 1% Hugging Face contributor** (15+ models, 50k+ downloads), I’m passionate about advancing AI to solve real-world challenges and sharing insights with the community.
 
 📍 Islamabad, Pakistan | 📧 [hasansyed8505@gmail.com](mailto:hasansyed8505@gmail.com) | 🔗 [LinkedIn](https://www.linkedin.com/in/s-hasan-abbas) | 🐦 [Twitter](https://twitter.com/hasansyed_AI)
 
