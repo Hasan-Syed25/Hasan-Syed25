@@ -1,40 +1,72 @@
 # Syed Hasan
 
+**AI Engineer** | **Generative AI Specialist** | **Conversational Systems Innovator**  
+With over 2 years of experience, I craft enterprise-grade AI solutions using **retrieval-augmented generation (RAG)**, **model optimization**, and **agentic architectures**. As a **top 1% Hugging Face contributor** (15+ models, 50k+ downloads), I’m passionate about advancing AI to solve real-world challenges and sharing insights with the community.
 
-[![Twitter Badge](https://img.shields.io/badge/-Twitter-1da1f2?labelColor=1da1f2&logo=twitter&logoColor=white&link=https://twitter.com/https://x.com/hasansyed_AI)](https://twitter.com/hasansyed_AI)
-[![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/s-hasan-abbas)
+📍 Islamabad, Pakistan | 📧 [hasansyed8505@gmail.com](mailto:hasansyed8505@gmail.com) | 🔗 [LinkedIn](https://www.linkedin.com/in/s-hasan-abbas) | 🐦 [Twitter](https://twitter.com/hasansyed_AI)
+
+[![Twitter](https://img.shields.io/badge/-Twitter-1da1f2?labelColor=1da1f2&logo=twitter&logoColor=white)](https://twitter.com/hasansyed_AI)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/s-hasan-abbas)
 [![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:hasansyed8505@gmail.com)
-[![Website Badge](https://img.shields.io/badge/-Website-c14438?style=flat&logo=Google-Chrome&logoColor=white&link=https://github.com/Hasan-Syed25)](https://github.com/Hasan-Syed25)
-[![Github](https://img.shields.io/github/followers/Hasan-Syed25?label=Follow&style=social)](https://github.com/Hasan-Syed25)
+[![GitHub](https://img.shields.io/github/followers/Hasan-Syed25?label=Follow&style=social)](https://github.com/Hasan-Syed25)
 
-## 🤖 Machine Learning Engineer | 🤗 Hugging Face Contributor | 🔗 LinkedIn Active
+---
 
-I'm passionate about pushing the boundaries of AI and machine learning to solve real-world problems.
+## 🏆 Achievements
 
-### 🌱 What I'm currently learning
-- Advanced techniques in transformer architectures
-- Efficient fine-tuning methods for large language models
-- Ethical AI and responsible machine learning practices
+- **Top 1% Hugging Face Contributor**: Fine-tuned 15+ models with over 50,000 downloads.
+- **4x GPA-Based Scholarship Recipient**: Recognized for academic excellence at NUST.
+- **2nd Rank in Matriculation Boards**: Ranked among 250,000+ candidates Pakistan-wide.
 
-### Some Recent Projects
-- Built a RAG chatbot for tax applications
-- Developed a KNN/LLM based router for query handling
-- Aligned language models with clinical datasets
-- Designed a model for brain tumor detection using MRI data
-- Merged 7B models using innovative techniques
-- Developed a scalable cloud-based microservices solution on GCP
-- Implemented a product categorization system using CNN with 88% accuracy
+---
 
+## 🚀 Recent Projects
 
+- **Conditional Conversational AI**  
+  Built a context-aware chatbot that dynamically switches between external data and LLM responses, cutting latency by **35%** and maintaining **92% accuracy**.
 
-### 🖥 Skills
+- **Advanced Report QA Agent**  
+  Developed a RAG-based QA system with self-assessment, achieving **98% factual consistency** in legal and financial domains.
 
-- Deep Learning
-- Natural Language Processing
-- Computer Vision
-- Generative AI
-- MLOps and AI Infrastructure
-- Inference Optimization
-### ⚙️ Tech Stack
+- **Hybrid Search Framework**  
+  Architected a hybrid retrieval system (BM25 + embeddings + RRF), boosting search relevance by **42%** with agentic RAG.
 
-![Bootstrap](https://img.shields.io/badge/-Python-05122A?style=flat-square&logo=Python&color=353535) ![Bootstrap](https://img.shields.io/badge/-Docker-05122A?style=flat-square&logo=Docker&color=353535) ![Bootstrap](https://img.shields.io/badge/-TensorFlow-05122A?style=flat-square&logo=TensorFlow&color=353535) ![Bootstrap](https://img.shields.io/badge/-PyTorch-05122A?style=flat-square&logo=PyTorch&color=353535) ![Bootstrap](https://img.shields.io/badge/-Scikit%20Learn-05122A?style=flat-square&logo=Scikit-Learn&color=353535) ![Bootstrap](https://img.shields.io/badge/-Pandas-05122A?style=flat-square&logo=Pandas&color=353535) ![Bootstrap](https://img.shields.io/badge/-Numpy-05122A?style=flat-square&logo=Numpy&color=353535)
+- **Fine-tuning SLMs on Medical Datasets**  
+  Topped the Open Medical LLM leaderboard across 3B-70B models using curated medical data.
+
+- **Brain Tumour Detection with Phi-2 LLM**  
+  Designed a deep learning model for early diagnosis and personalized treatment using MRI data.
+
+---
+
+## 🛠 Skills & Technologies
+
+- **Languages**: Python, JavaScript, Go  
+- **ML Frameworks**: PyTorch, TensorFlow, LangChain, HuggingFace Transformers, Axolotl, LM Evaluation Harness  
+- **NLP**: RAG, LLM Fine-Tuning, BM25, Sentence Transformers, Prompt Engineering  
+- **Cloud & DevOps**: GCP, Docker, Kubernetes, Microservices, Azure  
+- **Tools**: Git, K6, Weights & Biases  
+- **Domains**: Generative AI, Conversational Systems, Model Optimization, Agentic Architectures  
+
+---
+
+## 🎓 Education & Research
+
+- **B.E Software Engineering**  
+  National University of Science and Technology, Islamabad (CGPA: 3.81, Minor in Marketing)  
+
+- **Ongoing Research: Q-PPFT**  
+  Building a Unified Multi-Modal Recommendation Engine with Quantized Personalized Prompt Fine-Tuning.
+
+---
+
+## 🌟 About Me
+
+I’m an AI enthusiast dedicated to creating impactful solutions and inspiring others in the field. Catch my latest thoughts on AI advancements on [Twitter](https://twitter.com/hasansyed_AI) or [LinkedIn](https://www.linkedin.com/in/s-hasan-abbas)!
+
+---
+
+## 📊 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Hasan-Syed25&show_icons=true&theme=radical)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Hasan-Syed25&layout=compact&theme=radical)
