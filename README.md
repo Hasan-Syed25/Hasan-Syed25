@@ -12,14 +12,6 @@ With over 2 years of experience, I craft enterprise-grade AI solutions using **r
 
 ---
 
-## 🏆 Achievements
-
-- **Top 1% Hugging Face Contributor**: Fine-tuned 15+ models with over 50,000 downloads.
-- **4x GPA-Based Scholarship Recipient**: Recognized for academic excellence at NUST.
-- **2nd Rank in Matriculation Boards**: Ranked among 250,000+ candidates Pakistan-wide.
-
----
-
 ## 🚀 Recent Projects
 
 - **Conditional Conversational AI**  
@@ -43,22 +35,10 @@ With over 2 years of experience, I craft enterprise-grade AI solutions using **r
 
 - **Languages**: Python, JavaScript, Go  
 - **ML Frameworks**: PyTorch, TensorFlow, LangChain, HuggingFace Transformers, Axolotl, LM Evaluation Harness  
-- **NLP**: RAG, LLM Fine-Tuning, BM25, Sentence Transformers, Prompt Engineering  
 - **Cloud & DevOps**: GCP, Docker, Kubernetes, Microservices, Azure  
 - **Tools**: Git, K6, Weights & Biases  
 - **Domains**: Generative AI, Conversational Systems, Model Optimization, Agentic Architectures  
 
----
-
-## 🎓 Education & Research
-
-- **B.E Software Engineering**  
-  National University of Science and Technology, Islamabad (CGPA: 3.81, Minor in Marketing)  
-
-- **Ongoing Research: Q-PPFT**  
-  Building a Unified Multi-Modal Recommendation Engine with Quantized Personalized Prompt Fine-Tuning.
-
----
 
 ## 🌟 About Me
 
