@@ -35,7 +35,7 @@ With 3+ years building enterprise-scale AI solutions, I specialize in **retrieva
 ## 💼 Experience
 
 - **Founding AI Engineer** at 108-AI (Aug 2024 - Present)
-- **Machine Learning Engineer** at Johnsnow Labs (Oct 2021 - Jul 2023)
+- **Machine Learning Engineer** at GenerexAI (Oct 2021 - Jul 2023)
 
 ---
 
