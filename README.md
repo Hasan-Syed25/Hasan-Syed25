@@ -2,10 +2,10 @@
 
 # Syed Hasan Abbas
 
-### AI Engineer · Full-Stack Engineer
+### Founding AI Engineer · Agentic Systems
 
-**I take AI products from an idea to something customers pay for.**
-Model to interface, and the infrastructure holding it up.
+**I build AI agents that reach production and stay there.**
+Full-stack since 2019, AI-first since 2021. Model to interface, and the infrastructure holding it up.
 
 ### *A good agent can lie truthfully.*
 
@@ -41,9 +41,9 @@ Separately, in published research: model compression and alignment work, includi
 
 ## What I am building now
 
-**Lead engineer on the AI platform at [Plug](https://github.com/pluuug-net)**, a startup automating Meta advertising for growing brands.
+**Founding AI Engineer at a stealth-stage startup**, building an autonomous advertising platform. Unlaunched, so the details stay light.
 
-Advertisers waste budget because nobody can watch every campaign every hour. Plug does. I built the system that ingests a brand's ad, analytics, and creative data, monitors performance continuously, and surfaces what changed and what to do about it in plain language, so a marketer without an analyst can act on their own numbers.
+Growth teams waste budget because nobody can watch every campaign every hour. The platform does. I built the system that ingests a brand's advertising, analytics, and creative data, monitors performance continuously, and says what changed and what to do about it in plain language, so a marketer without an analyst can act on their own numbers.
 
 What that meant in practice:
 
@@ -104,11 +104,14 @@ Alongside these: agent orchestration and evaluation frameworks, vector and graph
 
 ## Background
 
-**Lead AI Engineer**, Plug · advertising automation
-
-**Founding AI Engineer**, 108-AI
-
-**Machine Learning Engineer**, GenerexAI
+| | | |
+|:--|:--|:--|
+| **2025 – Present** | Founding AI Engineer | Stealth startup · autonomous advertising |
+| **2024 – 2025** | Full-Stack Engineer | Yeild AI · marketing research and proposals |
+| **2024** | Senior AI Engineer | BotsCrew · conversational agent platforms |
+| **2022 – 2024** | Founding AI Engineer | 108 AI · legal AI agents |
+| **2021 – 2022** | AI Research Engineer | Queryloop AI · applied LLM research |
+| **2019 – 2021** | Software Engineer, Full-Stack | Devsinc · started as an intern, stayed two years |
 
 **B.E. Software Engineering** · National University of Sciences and Technology, Islamabad · GPA 3.81
 
