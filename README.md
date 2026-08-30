@@ -2,105 +2,125 @@
 
 # Syed Hasan Abbas
 
-**AI Engineer / Full-Stack Engineer** · Agentic systems, retrieval, and the infrastructure around them
+### AI Engineer · Full-Stack Engineer
 
-I build the whole path from model to product: LangGraph agent orchestration, hybrid retrieval over messy real-world documents, the FastAPI and NestJS services behind them, the Next.js frontends on top, and the Kubernetes and Celery plumbing that keeps it running.
+**I take AI products from an idea to something customers pay for.**
+Model to interface, and the infrastructure holding it up.
+
+### *A good agent can lie truthfully.*
+
+When it is wrong, it can still show you exactly what it saw and why it concluded that.
+I build agents that are fast, accurate, and accountable when they are none of the above.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/s-hasan-abbas)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E?style=for-the-badge&logoColor=black)](https://huggingface.co/Syed-Hasan-8503)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hasansyed8505@gmail.com)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/syed_hasan_03)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/syed_hasan_03)
 
 </div>
 
 ---
 
-## What I actually work on
+## The problems I get hired to solve
 
-**Agentic systems.** LangGraph state machines with parallel fan-out via `asyncio.gather`, sub-workflow composition, and human-in-the-loop checkpoints that survive a process restart. Plan-and-execute agents, MCP servers exposing internal data as tools, and MCP clients consuming them.
+**"Our agent is right, eventually, and nobody will wait that long."**
+Speed in an agent is not a faster model, it is refusing to do the same work twice. I make the expensive parts of a run reusable: identical questions collapse into one computation instead of one per user, a step that already fetched something is never allowed to fetch it again, and the queries an agent writes are made deterministic so the same request produces the same result rather than a fresh guess. Users get an answer while they still care about the question.
 
-**Retrieval that holds up on real documents.** Dense plus sparse hybrid search with reciprocal rank fusion (Qdrant `Prefetch` and `FusionQuery`), BM25 and FastEmbed sparse vectors, cross-encoder reranking, GraphRAG over Neo4j, and clause-aware chunking for legal contracts where splitting a clause mid-obligation produces a confidently wrong answer.
+**"It gave us the wrong number and we cannot find out why."**
+This is the failure that ends trust in an AI product, and it is an architecture problem, not a model problem. I build agents where the evidence outlives the answer: whatever a step concludes, the full data it actually saw is preserved alongside it rather than being summarised away. So when an answer is wrong, you can open it, see the real inputs, and say precisely where it went wrong. Every model call is traced end to end. Nothing has to be reproduced from memory.
 
-**Model work, in the open.** 15+ models published on Hugging Face covering preference optimization, parameter-efficient fine-tuning, distillation, KV-cache compression, model merging, and linear-attention uptraining, each with the training notebook that produced it.
+**"Our team is drowning in a manual process."**
+Contract review, ad account management, campaign reporting, recruitment screening. I find the judgement-heavy work that people should keep, automate the mechanical work around it, and leave a human in the loop at the point where it actually matters.
 
-**The unglamorous half.** Multi-tenant database-per-tenant architecture, Celery Beat with RedBeat for distributed scheduling, Langfuse tracing on every LLM call, k6 load testing with `constant-arrival-rate` executors, NGINX ingress on Kubernetes, and CI that runs before anything ships.
+**"We need this built, and there is nobody to hand the other half to."**
+I ship the API, the interface, the data pipeline, and the deployment. Small teams get a working product instead of a component that needs three more hires to become one.
+
+Separately, in published research: model compression and alignment work, including a **91.25% reduction in KV-cache memory** on an 8B model that *improved* long-context benchmark scores.
+
+---
+
+## What I am building now
+
+**Lead engineer on the AI platform at [Plug](https://github.com/pluuug-net)**, a startup automating Meta advertising for growing brands.
+
+Advertisers waste budget because nobody can watch every campaign every hour. Plug does. I built the system that ingests a brand's ad, analytics, and creative data, monitors performance continuously, and surfaces what changed and what to do about it in plain language, so a marketer without an analyst can act on their own numbers.
+
+What that meant in practice:
+
+- An **orchestration layer** running eleven independent background workers with resilient scheduling, so one slow integration never stalls the rest of the platform.
+- A **conversational analytics agent** that turns a plain-English question into a warehouse query and answers over live campaign data, replacing dashboard archaeology.
+- A **caching layer** that took multi-second page loads off the critical path. Concurrent requests for the same view collapse into a single computation, results stay servable while they refresh in the background, and any user action that changes the data invalidates it immediately. Fast and stale is a bug; this is fast and correct.
+- **Answers you can audit.** Tool results are preserved in full rather than being retyped and truncated by each model that handles them. The agent works from a bounded view, the complete evidence travels to the user, and a wrong answer can always be traced back to the exact rows that produced it.
+- A **creative intelligence pipeline** that reads the actual images and video in an ad account and connects creative choices to performance.
+- A **tested codebase**, not a prototype: over 200 test files across the services, tracing on every model call, and monitoring that surfaces failures before customers report them.
+
+---
+
+## Selected work
+
+**Legal contract review platform.** Lawyers reviewing agreements clause by clause. The hard part was not summarisation, it was making sure a retrieved clause arrived whole, because half an obligation reads as a different obligation entirely. Built the document pipeline, the clause-level risk scoring, and the review interface. → [the technique, open-sourced](https://github.com/Hasan-Syed25/LLM-Based-Document-Chunking)
+
+**Voice and chat agent platform for service businesses.** Missed calls are lost revenue for contractors. Built a configurable agent that answers, qualifies, and books appointments over real-time voice or chat, deployed for paying customers across multiple verticals from one codebase.
+
+**Marketing research and proposal platform.** Trend ingestion through to a finished client-ready proposal, built with a team as a monorepo.
+
+**Model research, published openly.** 15+ models on [Hugging Face](https://huggingface.co/Syed-Hasan-8503) reproducing frontier techniques end to end, with evaluations rather than claims: [91.25% KV-cache compression](https://huggingface.co/Syed-Hasan-8503/PaluLlama-3-8B-Instruct) with benchmark gains, [76.1% reward accuracy](https://huggingface.co/Syed-Hasan-8503/Llama-3-8b-instruct-SimPO) on preference alignment over a dataset I built myself, and [82.29% on TextVQA](https://huggingface.co/Syed-Hasan-8503/Idefics2-8B-SFT) for a vision-language model.
 
 ---
 
 ## Open source
 
-| Project | What it is |
+| | |
 |:--|:--|
-| **[MCP-Server-AlphaVantage](https://github.com/Hasan-Syed25/MCP-Server-AlphaVantage)** | An MCP server on the official Python SDK exposing real market analysis as LLM tools: moving averages, RSI, Golden and Death Cross detection. Carries a third-party MseeP.ai security audit badge. |
-| **[RepoMind](https://github.com/Hasan-Syed25/RepoMind)** | Conversational RAG over a repository's own codebase. Dense and sparse FastEmbed vectors fused in Qdrant, plus a self-correction loop where a structured `CodeReviewResult` check routes the agent back for a retry instead of returning an unverified answer. |
-| **[iRoPE Implementation](https://github.com/Hasan-Syed25/iRope_Implementation)** | Retrofits a pretrained LLaMA's attention to interleave local RoPE attention with global temperature-scaled non-RoPE attention. Full weight-transfer logic, five configurable scaling functions, and a README honest about what a retrofit cannot match. |
-| **[HF2Reasoning](https://github.com/Hasan-Syed25/HF2Reasoning)** | Turns any Hugging Face dataset into a chain-of-thought dataset using the BARE technique: a base model generates diverse rough output, an instruct model refines it. Runs against Together API or self-hosted sglang. |
-| **[LLM-Based Document Chunking](https://github.com/Hasan-Syed25/LLM-Based-Document-Chunking)** | Clause-aware chunking for legal RAG. GPT-4o finds boundaries through Pydantic-constrained structured output and regex does the cutting, so extracted text stays byte-identical to the source. |
-| **[AI Recruitment Synapse](https://github.com/Hasan-Syed25/AI_Recruitment_Synapse)** | Resume-to-role matching over hybrid retrieval, Azure OpenAI embeddings alongside `rank_bm25` sparse search, with LLM-generated justifications for every match. |
-| **[SynGen](https://github.com/Hasan-Syed25/SynGen)** | Generates legal QA pairs from a Pakistani law corpus against a local vLLM server running Llama-3.3-70B-Instruct-AWQ. |
-| **[PyTorch to SafeTensors Converter](https://github.com/Hasan-Syed25/PyTorch-SafeTensors-Converter)** | Sharded checkpoint conversion with tied-weight detection and element-wise round-trip verification on every tensor. Also live as a [Hugging Face Space](https://huggingface.co/spaces/Syed-Hasan-8503/Model_Converter_BIN-SafeTensors). |
-| **[CLIAgentX](https://github.com/Hasan-Syed25/CLIAgentX)** | A terminal AI agent backed by Azure OpenAI or local vLLM, with search grounding. |
-
-### Production work, under NDA
-
-The systems I spend most of my time on are in private repositories. In shape, they look like this:
-
-- A **legal contract review platform** across three services: a document pipeline doing layout-aware partitioning with automatic OCR fallback, a clause-level risk scoring engine over hybrid Qdrant retrieval, and the review interface on top.
-- A **multi-vertical conversational agent platform**, voice and chat, with a real-time stack over LiveKit, Deepgram, ElevenLabs and Twilio, Neo4j-backed retrieval, and per-client configuration. Deployed for paying customers.
-- An **advertising analytics agent** routing between NL-to-SQL over BigQuery and a GraphRAG path, with Celery Beat scheduling ingestion and Langfuse tracing every model call.
-- A **marketing research and proposal platform** built as a Turborepo monorepo with a team.
-
-Happy to walk through architecture and tradeoffs on any of these in a conversation.
-
----
-
-## Published models
-
-Numbers below come from the model cards and evaluation runs, not estimates.
-
-| Model | Technique | Result |
-|:--|:--|:--|
-| [`PaluLlama-3-8B-Instruct`](https://huggingface.co/Syed-Hasan-8503/PaluLlama-3-8B-Instruct) | Palu low-rank KV-cache compression | **91.25%** KV-cache memory reduction |
-| [`Llama-3-8b-instruct-SimPO`](https://huggingface.co/Syed-Hasan-8503/Llama-3-8b-instruct-SimPO) | SimPO preference optimization | **76.1%** reward accuracy |
-| [`Idefics2-8B-SFT`](https://huggingface.co/Syed-Hasan-8503/Idefics2-8B-SFT) | VLM supervised fine-tuning | **82.29%** Levenshtein on TextVQA |
-| [`phi-2-ORPO`](https://huggingface.co/Syed-Hasan-8503/phi-2-ORPO) | ORPO, no separate reward model | Reference-free alignment in a single stage |
-| [`Gemma-2-2b-it-distilled`](https://huggingface.co/Syed-Hasan-8503/Gemma-2-2b-it-distilled) | Knowledge distillation, 9B teacher to 2B student | Served on hardware the teacher cannot fit |
-| [`Llama-3-openhermes-reft`](https://huggingface.co/Syed-Hasan-8503/Llama-3-openhermes-reft) | ReFT, interventions on frozen representations | Adaptation without touching weights |
-| [`Versatile-7B`](https://huggingface.co/Syed-Hasan-8503/Versatile-7B) · [`Exodius-70B`](https://huggingface.co/Syed-Hasan-8503/Exodius-70B) | mergekit, DARE-TIES and SLERP | Capability combination with zero gradient steps |
-| [`Linear_Tiny_87M`](https://huggingface.co/Syed-Hasan-8503/Linear_Tiny_87M) | SUPRA linear-attention uptraining | Softmax attention converted to linear recurrence |
-
-Also: NOLA, DoRA, QLoRA with custom classification heads, BAdam, CPO-SimPO, PoSE long-context extension, and QServe W4A8KV4 quantization.
+| **[MCP-Server-AlphaVantage](https://github.com/Hasan-Syed25/MCP-Server-AlphaVantage)** ⭐ 7 | Gives any assistant real market analysis tools. Independently security-audited by MseeP.ai. |
+| **[RepoMind](https://github.com/Hasan-Syed25/RepoMind)** | Ask a codebase questions. Reviews its own answer and retries rather than guessing. |
+| **[HF2Reasoning](https://github.com/Hasan-Syed25/HF2Reasoning)** ⭐ 2 | Turns any public dataset into a reasoning dataset, so small teams can build training data without a labelling budget. |
+| **[iRoPE Implementation](https://github.com/Hasan-Syed25/iRope_Implementation)** | Long-context attention rebuilt from a paper description, with an honest account of the limits. |
+| **[SafeTensors Converter](https://github.com/Hasan-Syed25/PyTorch-SafeTensors-Converter)** | Converts model checkpoints out of a format that executes code on load. Verifies every tensor. Also a [hosted app](https://huggingface.co/spaces/Syed-Hasan-8503/Model_Converter_BIN-SafeTensors). |
+| **[AI Recruitment Synapse](https://github.com/Hasan-Syed25/AI_Recruitment_Synapse)** | Matches candidates to roles and explains why, instead of returning an unexplained score. |
+| **[SynGen](https://github.com/Hasan-Syed25/SynGen)** | Builds legal question-answer datasets for a jurisdiction that has almost none. |
 
 ---
 
 ## Stack
 
-**Languages** Python · TypeScript · JavaScript · Java · SQL · Cypher
+<div align="center">
 
-**AI & ML** LangGraph · LangChain · LangChainJS · MCP · PyTorch · Transformers · PEFT · TRL · mergekit · Instructor · Pydantic structured output · Langfuse · LangSmith
+[![Languages](https://skillicons.dev/icons?i=py,ts,js,java,pytorch&theme=dark)](https://skillicons.dev)
 
-**Retrieval** Qdrant · Neo4j · MongoDB Atlas Vector Search · BM25 / `rank_bm25` · FastEmbed · cross-encoder reranking · RRF
+[![Backend](https://skillicons.dev/icons?i=fastapi,nestjs,nodejs,graphql,redis&theme=dark)](https://skillicons.dev)
 
-**Backend** FastAPI · NestJS + Fastify · Express · Apollo GraphQL · Celery / Celery Beat / RedBeat / Flower · BullMQ · Redis
+[![Frontend](https://skillicons.dev/icons?i=nextjs,react,tailwind,vercel&theme=dark)](https://skillicons.dev)
 
-**Frontend** Next.js App Router · React · Vite · Apollo Client · GraphQL Codegen · graphql-ws · Tiptap / ProseMirror · shadcn/ui · Tailwind
+[![Data](https://skillicons.dev/icons?i=postgres,mongodb,supabase,sqlite&theme=dark)](https://skillicons.dev)
 
-**Data** BigQuery · PostgreSQL · Supabase · MongoDB · SQLAlchemy + Alembic · Drizzle
+[![Infrastructure](https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,azure,githubactions&theme=dark)](https://skillicons.dev)
 
-**Infra** Docker · Kubernetes + Skaffold + NGINX Ingress · AWS (EC2, ECS Fargate, ECR, CloudWatch) · GCP · Azure OpenAI · Vercel · GitHub Actions
+</div>
 
-**Testing & observability** pytest · vitest · Mocha / Chai / Sinon · Postman / Newman · k6 · Prometheus · structlog · Winston
+Alongside these: agent orchestration and evaluation frameworks, vector and graph databases, hybrid retrieval, distributed task queues, LLM observability tooling, and load testing.
 
 ---
 
 ## Background
 
-**Founding AI Engineer**, 108-AI · Aug 2024 to present
+**Lead AI Engineer**, Plug · advertising automation
 
-**Machine Learning Engineer**, GenerexAI · Oct 2021 to Jul 2023
+**Founding AI Engineer**, 108-AI
 
-**B.E. Software Engineering**, National University of Sciences and Technology, Islamabad · GPA 3.81
+**Machine Learning Engineer**, GenerexAI
 
-Most of my production work lives in private company repositories, so the commit graph here is quiet. This profile is the public trace: shipped models with reproducible evaluations, the notebooks that produced them, and the projects I can share.
+**B.E. Software Engineering** · National University of Sciences and Technology, Islamabad · GPA 3.81
 
-Open to remote AI engineering and AI-first full-stack roles. Reach me at [hasansyed8505@gmail.com](mailto:hasansyed8505@gmail.com).
+---
+
+<div align="center">
+
+Most of my work lives in private repositories, so the graph here is quiet.
+This page is the public trace of it.
+
+**Open to remote AI engineering and AI-first full-stack roles.**
+
+[hasansyed8505@gmail.com](mailto:hasansyed8505@gmail.com)
+
+</div>
